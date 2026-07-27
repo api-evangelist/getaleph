@@ -1,8 +1,27 @@
 aid: getaleph
 name: Getaleph
-description: Getaleph is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aleph (Getaleph) is an AI-native financial planning and analysis (FP&A) platform that
+  automates finance busywork so teams can focus on strategic work. It consolidates data
+  from 150+ ERP, CRM, and HRIS integrations using no-code tools, syncs live data into
+  Excel and Google Sheets, and builds interactive dashboards for stakeholders. The Aleph
+  Agent delivers instant, auditable answers in Slack, Teams, or Aleph, and the hosted
+  Aleph Agent MCP server plugs governed financial data directly into Claude, ChatGPT,
+  Cursor, and other MCP-compatible AI tools without CSV exports. Aleph is SOC 1 & 2 Type II
+  certified and is backed by Khosla Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/getaleph/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6778d1207e03199a243dafef/67a195074ba210ec502ca6d5_aleph-sg.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Finance
+- FP&A
+- Financial Planning
+- Data Consolidation
+- Spreadsheets
+- Dashboards
+- Analytics
+- AI
+- MCP
+- Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.getaleph.com/
+- type: Documentation
+  url: https://docs.getaleph.com/
+- type: Blog
+  url: https://www.getaleph.com/blog
+- type: Support
+  url: https://www.getaleph.com/contact-us
+- type: SignUp
+  url: https://www.getaleph.com/trial
+- type: Login
+  url: https://app.getaleph.com
+- type: GitHubOrganization
+  url: https://github.com/getaleph
+- type: TermsOfService
+  url: https://www.getaleph.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.getaleph.com/privacy-policy
+- type: MCPServer
+  url: mcp/getaleph-mcp.yml
+- type: Conformance
+  url: conformance/getaleph-conformance.yml
+- type: Compliance
+  url: https://www.getaleph.com/platform/ai/mcp
+- type: DomainSecurity
+  url: security/getaleph-domain-security.yml
+- type: LLMsTxt
+  url: llms/getaleph-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

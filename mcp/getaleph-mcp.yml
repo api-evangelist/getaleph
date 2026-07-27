@@ -1,0 +1,29 @@
+generated: '2026-07-19'
+method: searched
+status: published
+source: https://www.getaleph.com/platform/ai/mcp
+server:
+  name: Aleph Agent MCP
+  transport: http
+  # Aleph publicly documents a hosted Model Context Protocol server ("Aleph Agent MCP")
+  # that plugs governed financial data into MCP-compatible AI tools. No public remote
+  # endpoint URL, install string, or tool manifest is published on the marketing pages;
+  # access is provisioned through the Aleph app / demo. url intentionally omitted (not fabricated).
+  url: null
+connects_to:
+- Claude
+- ChatGPT
+- Cursor
+- Any MCP-compatible tool
+capabilities:
+- Live connection to structured, governed financial data (no CSV exports)
+- Query data across ERP, CRM, HRIS, and 200+ integrations
+- Build live, connected Excel spreadsheets that refresh on demand
+- Generate dashboards and automated workflows from prompts
+compliance:
+- SOC 1 & 2 Type II certified
+tools: []
+notes: >-
+  Real, provider-published hosted MCP server. Tool list is not publicly documented, so
+  no candidate tools were derived (no OpenAPI in this repo to ground them). Re-run once
+  Aleph publishes an MCP tool manifest or developer docs.
