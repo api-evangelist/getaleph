@@ -5,10 +5,6 @@ source: https://www.getaleph.com/platform/ai/mcp
 server:
   name: Aleph Agent MCP
   transport: http
-  # Aleph publicly documents a hosted Model Context Protocol server ("Aleph Agent MCP")
-  # that plugs governed financial data into MCP-compatible AI tools. No public remote
-  # endpoint URL, install string, or tool manifest is published on the marketing pages;
-  # access is provisioned through the Aleph app / demo. url intentionally omitted (not fabricated).
   url: null
 connects_to:
 - Claude
@@ -23,7 +19,11 @@ capabilities:
 compliance:
 - SOC 1 & 2 Type II certified
 tools: []
-notes: >-
-  Real, provider-published hosted MCP server. Tool list is not publicly documented, so
-  no candidate tools were derived (no OpenAPI in this repo to ground them). Re-run once
-  Aleph publishes an MCP tool manifest or developer docs.
+notes: Real, provider-published hosted MCP server. Tool list is not publicly documented, so no candidate
+  tools were derived (no OpenAPI in this repo to ground them). Re-run once Aleph publishes an MCP tool
+  manifest or developer docs.
+deployment:
+  mode: remote
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
