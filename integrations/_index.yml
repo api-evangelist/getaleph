@@ -16,3 +16,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: getaleph-xero-own
+  label: Xero (own)
+  partner: xero
+  partner_name: Xero (own)
+  category: Reporting and forecasting
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://apps.xero.com/nz/app/aleph
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
